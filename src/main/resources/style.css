@@ -1,0 +1,8 @@
+span.error{
+    /*color: red;*/
+    background-color: #ffcccc;
+    border: 2px solid red;
+}
+input.error{
+    color: red;
+}

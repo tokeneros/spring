@@ -23,4 +23,9 @@ public class ConcertConfig {
         return new Audience();
     }
 
+    @Bean
+    public DefaultEncoreable defaultEncoreable(){
+        return new DefaultEncoreable();
+    }
+
 }

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Spittr</title>
+    <!-- 到样式表的th:href链接 -->
+    <link rel="stylesheet" type="text/css"
+          th:href="@{/resources/style.css}"></head>
+</head>
+<body>
+    <h1>Welcome to Spittr</h1>
+    <!-- 到页面的th:href链接 -->
+    <a th:href="@{/spittles}">Spittles</a>
+    <a th:href="@{/spitter/register}">Register</a>
+</body>
+</html>
